@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "game", "game.vcxproj", "{9F35977C-8B6C-980D-3459-7E10206F140F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependencies", "Dependencies", "{53E47842-3FC8-3998-A828-34EB942B241A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "curl", "curl.vcxproj", "{DB59957C-C790-960D-707D-7C105C93120F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "discord-rpc", "discord-rpc.vcxproj", "{DFD4EACE-4B8A-63C4-D47E-5D9B40335AC8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "imgui", "imgui.vcxproj", "{0098A80F-6CAC-D0C0-352E-7420A101CDF1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libtomcrypt", "libtomcrypt.vcxproj", "{1E3156E2-8AE6-CED7-13DB-C8AE7F8FC5DB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libtommath", "libtommath.vcxproj", "{36F6A20E-22AE-E45B-8BB5-BDB7778C7F4C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F35977C-8B6C-980D-3459-7E10206F140F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9F35977C-8B6C-980D-3459-7E10206F140F}.Debug|Win32.Build.0 = Debug|Win32
+		{9F35977C-8B6C-980D-3459-7E10206F140F}.Release|Win32.ActiveCfg = Release|Win32
+		{9F35977C-8B6C-980D-3459-7E10206F140F}.Release|Win32.Build.0 = Release|Win32
+		{DB59957C-C790-960D-707D-7C105C93120F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DB59957C-C790-960D-707D-7C105C93120F}.Debug|Win32.Build.0 = Debug|Win32
+		{DB59957C-C790-960D-707D-7C105C93120F}.Release|Win32.ActiveCfg = Release|Win32
+		{DB59957C-C790-960D-707D-7C105C93120F}.Release|Win32.Build.0 = Release|Win32
+		{DFD4EACE-4B8A-63C4-D47E-5D9B40335AC8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DFD4EACE-4B8A-63C4-D47E-5D9B40335AC8}.Debug|Win32.Build.0 = Debug|Win32
+		{DFD4EACE-4B8A-63C4-D47E-5D9B40335AC8}.Release|Win32.ActiveCfg = Release|Win32
+		{DFD4EACE-4B8A-63C4-D47E-5D9B40335AC8}.Release|Win32.Build.0 = Release|Win32
+		{0098A80F-6CAC-D0C0-352E-7420A101CDF1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0098A80F-6CAC-D0C0-352E-7420A101CDF1}.Debug|Win32.Build.0 = Debug|Win32
+		{0098A80F-6CAC-D0C0-352E-7420A101CDF1}.Release|Win32.ActiveCfg = Release|Win32
+		{0098A80F-6CAC-D0C0-352E-7420A101CDF1}.Release|Win32.Build.0 = Release|Win32
+		{1E3156E2-8AE6-CED7-13DB-C8AE7F8FC5DB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1E3156E2-8AE6-CED7-13DB-C8AE7F8FC5DB}.Debug|Win32.Build.0 = Debug|Win32
+		{1E3156E2-8AE6-CED7-13DB-C8AE7F8FC5DB}.Release|Win32.ActiveCfg = Release|Win32
+		{1E3156E2-8AE6-CED7-13DB-C8AE7F8FC5DB}.Release|Win32.Build.0 = Release|Win32
+		{36F6A20E-22AE-E45B-8BB5-BDB7778C7F4C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{36F6A20E-22AE-E45B-8BB5-BDB7778C7F4C}.Debug|Win32.Build.0 = Debug|Win32
+		{36F6A20E-22AE-E45B-8BB5-BDB7778C7F4C}.Release|Win32.ActiveCfg = Release|Win32
+		{36F6A20E-22AE-E45B-8BB5-BDB7778C7F4C}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DB59957C-C790-960D-707D-7C105C93120F} = {53E47842-3FC8-3998-A828-34EB942B241A}
+		{DFD4EACE-4B8A-63C4-D47E-5D9B40335AC8} = {53E47842-3FC8-3998-A828-34EB942B241A}
+		{0098A80F-6CAC-D0C0-352E-7420A101CDF1} = {53E47842-3FC8-3998-A828-34EB942B241A}
+		{1E3156E2-8AE6-CED7-13DB-C8AE7F8FC5DB} = {53E47842-3FC8-3998-A828-34EB942B241A}
+		{36F6A20E-22AE-E45B-8BB5-BDB7778C7F4C} = {53E47842-3FC8-3998-A828-34EB942B241A}
+	EndGlobalSection
+EndGlobal
